@@ -13,12 +13,12 @@
 
 这个图表显示了2018年到2022年的中国各个省份的总生产量。
 
-[时间线组合图表](https://sayakaaa00.github.io/Sayaka.github.io/世界地图-旅游行程.html)
+[时间线组合图表](https://sayakaaa00.github.io/Sayaka.github.io/组合地图-中国总生产量.html)
 
 ## 3. 词频统计图
 
 这个词云图显示了我最近读的短篇小说《骆驼祥子》的名词词频分析。
 
-[词云](https://)
+[词云](https://sayakaaa00.github.io/Sayaka.github.io/词云-骆驼祥子.html)
 
 
