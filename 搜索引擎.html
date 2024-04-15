@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>搜一下吧</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('背景.png');
+            background-size: cover; /* 背景图片覆盖整个屏幕 */
+            background-position: center; /* 背景图片居中 */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .search-container {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(246, 191, 195, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .search-input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 300px;
+            font-size: 16px;
+        }
+        .search-button {
+            padding: 10px 20px;
+            background-color: #E398A1;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            margin-top: 10px; /* 添加顶部间距 */
+        }
+        .search-button:hover {
+            background-color: #616A91
+        }
+        .title {
+            font-size: 36px; /* 将标题字体大小增大为36像素 */
+            color: #5C6586; /* 将标题颜色改为粉色 */
+        }
+    </style>
+</head>
+<body>
+    <div class="search-container">
+        <h1 class="title">无所不知&#x1F338</h1>
+        <form action="https://www.bing.com/search" method="get">
+            <input type="text" name="q" class="search-input" placeholder="好奇心旺盛的你真好看～">
+            <br>
+            <input type="submit" value="搜一下" class="search-button">
+            <!-- 点击“提交”按钮后，请注意浏览器地址栏的变化 -->
+        </form>
+    </div>
+</body>
+</html>
