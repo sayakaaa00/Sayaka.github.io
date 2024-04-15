@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>骆驼祥子 - 人物关系图</title>
+    <style>
+        /* 设置页面的基本字体和默认布局 */
+        body {
+            font-family: Arial, sans-serif; /* 字体设置为Arial或无衬线字体 */
+	    background-color: #F7ECD5;
+
+        }
+        .container {
+	    padding: 60px;
+            width: 90%; /* 容器宽度为浏览器宽度的90% */
+            margin: auto; /* 容器居中显示 */
+            overflow: hidden; /* 超出容器部分隐藏 */
+        }
+        .intro {
+            padding: 10px; /* 内部间距为20px */
+            background-color: rgba(255, 255, 255, 0.7); /* 背景颜色设置为白色，透明度为0.7 */
+            margin-top: 20px; /* 顶部间距20px */
+        }
+        .graph {
+            padding: 10px;
+            margin-top: 20px; /* 图表顶部间距20px */
+	    background-color: rgba(255, 255, 255, 0.7);
+        }
+	img#a {
+            position: absolute; /* 将图像设置为绝对定位 */
+            top: 20px; /* 与顶部的距离为20px */
+            right: 20px; /* 与右侧的距离为20px */
+            max-width: 200px; /* 图像的最大宽度为200px */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 >骆驼祥子 </h1>
+	
+	<img id="a" src="插图.png" alt="Character Interaction Network Image">
+        <div class="intro">
+            <h2>小说简介</h2>
+            <p>
+                《骆驼祥子》是作家老舍所著的长篇小说，于1936年，在《宇宙风》杂志25-48期上连载，1939年由上海人间书屋出版单行本。
+	    </p>
+	    <p>
+		它以旧北平为背景，描写了一个外号“骆驼”名叫祥子的人力车夫的悲惨遭遇，反映了生活在城市最底层的广大劳动人民的痛苦，暴露了旧社会的罪恶。这部作品以主要人物祥子为中心，围绕祥子的行动交叉着两条线索，一条是祥子“拉车，买上自己的车”，写他怎样为做个自由车夫，刻苦努力、不断挣扎，到头来希望破灭，陷入更加苦难的深渊，这是主线。另一条是祥子与虎妞、小福子等异性的纠葛，这是次线，但它与主线拧成一股，不断推进情节的发展。
+            </p>
+        </div>
+        <div class="graph">
+            <h2>人物关系图</h2>
+            <iframe src="character_interaction_network.html" width="99%" height="600"></iframe>
+            <!-- 使用iframe嵌入Pyecharts生成的HTML图表，确保文件路径正确 -->
+        </div>
+    </div>
+</body>
+</html>
+
